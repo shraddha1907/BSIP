@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Display</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="weather-container">
+        <h2>Weather App</h2>
+
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-btn">🔍 Search</button>
+
+        <div class="weather-details">  
+            <div class="weather-info">
+                <div id="description">Condition: --</div>
+                <div id="temperature">Temperature: --°C</div>
+                <div id="humidity">Humidity: --%</div>
+                <div id="wind">Wind: -- km/h</div>
+            </div>
+        </div>
+
+       <button id="refresh-btn">🔄 Refresh</button>
+
+       <button id="dark-mode-toggle">🌓 Toggle Dark Mode</button>
+
+       
+    </div>
+
+    <script src="weather.js"></script>
+
+</body>
+</html>
